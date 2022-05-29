@@ -1,0 +1,4 @@
+# Creating a list of eight elements  
+mylist = ["Apple", "Mango", "Banana", "Orange", "Guava", "Mango", "Strawberry", "Grapes"]  
+  
+print(mylist)  
