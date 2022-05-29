@@ -1,0 +1,14 @@
+def merge_twoDict(a, b): # define the merge_twoDict() function  
+    return (a.update(b)) # append the second dictionary (b) to the first dictionary (a)   
+  
+a = {'USA' : 'New York',  
+      'Jermany' : 'Jakarta',  
+      'England' : 'London' }  
+b = {  
+    'India' : 'Delhi',  
+    'Russia' : 'Russian',  
+    'Australia' : 'Sydney'  
+}            
+merge_twoDict(a, b) # pass two dictionaries to merge_twoDict() function  
+print("Merged Dictionaries is : ")  
+print(a) # print the merge dictionaries
